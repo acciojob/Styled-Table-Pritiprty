@@ -1,1 +1,30 @@
 /* your code */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; /* Adjust the value to change the corner radius */
+    overflow: hidden;
+}
+
+/* Style for table header */
+th {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #2980b9;
+}
+
+/* Style for table body */
+td {
+    padding:10px;
+    border: 1px solid #ecf0f1;
+}
+
+/* Style alternating rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
